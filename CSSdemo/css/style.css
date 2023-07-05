@@ -1,0 +1,29 @@
+
+/* External style css */
+
+*{
+  color: rgb(157, 64, 207);
+}
+/* class */
+.top_heading{
+    color: blue !important;
+    text-align: center;
+}
+/* id is the most in css */
+#heading{
+    color: rgb(137, 26, 188);
+}
+
+section h2{
+    text-align: center;
+    text-transform: uppercase;
+    /* transform:upper; */
+}
+p:first-child{
+    font-size: 24px;
+    color: #2554ba;
+    background-color: #60f221;
+}
+p:hover{
+    background-color: #c4af26;
+}

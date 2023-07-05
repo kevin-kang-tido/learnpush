@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Moulpali",cursive;
+}
+body{
+    background-color: whitesmoke;
+
+}
+ul li a{
+    color: #ffffff;
+}
+
+header{
+    background-color: #77128e;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    display: inline-block;
+    color: rgb(247, 244, 240);
+    font-size: 20px;
+    font-family:"Moulpali",cursive;
+    margin: 10px;
+    /* font-family: 'Courier New'; */
+}
+.introduction{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    font-family:"Moulpali",cursive;
+}
+.descrition{
+    /* display: flex; */
+    margin: 20px;
+    width: 90vw;
+}
+.feature_demo{
+    width: 300px;
+}
+.feature_demo img{
+    width:100%;
+}
+button{
+    width: 200px;
+    height: 50px;
+    background-color: #2a2ac0;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+h1{
+    padding-top: 10px;
+    /* padding-bottom: 40px; */
+    text-align: center;
+}
+.popular_course h1{
+    padding: 40px;
+
+}
+.partner h1{
+    color: #ffffff;
+}
+.partner{
+    background-color: #740a70;
+}
+.partner_logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    /* margin: auto; */
+}
+.partner_logo img{
+    width:150px;
+    margin: 20px;
+}
+
+.course{
+    /* float: left; */
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.item{
+    border-radius: 30px;
+    margin: 20px;
+    width: 240px;
+    background-color: #ffffff;
+}
+.item img{
+    width: 100%;
+}
+.item h2{
+    text-align: center;
+}
+footer{
+    width: 100vw;
+    height: 350px;
+    display: flex;
+    background-color: #fff;
+}
+.item_icon{
+    border-radius: 30px;
+    margin: 20px;
+    width: 260px;
+    /* background-color: #ffffff; */
+}
+.item_icon i{
+    font-size: 50px;
+    color: #740a70;
+    display: flex;
+    justify-content: center;
+
+}
+.item_icon h1{
+    padding-top: 60px;
+    font-size: 14px;
+}
+.information{
+    width: 23%;
+    display: flex;
+}
+.me{
+    /* display: flex; */
+    padding-top: 45px;
+    width: 100%;
+}
+.me img{
+    width:10% ;
+}
+.me p{
+    font-size: 12px;
+}
+.icon_meta{
+    padding-top: 15px;
+    font-size: 25px;
+    color: rgb(103, 107, 110);
+}
+.icon_meta i{
+    margin-left: 15px;
+}
+.hole{
+    margin: 40px;
+}
+iframe{
+    padding-top: 45px;
+}

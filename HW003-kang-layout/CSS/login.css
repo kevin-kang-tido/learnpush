@@ -1,0 +1,54 @@
+
+*{
+    color: #2b0c73;
+    font-weight: 700;
+}
+/* .logo{
+    width: 200px;
+} */
+.logo img{
+    width: 110px;
+}
+a{
+    text-decoration: none;
+    color: rgb(79, 15, 140);
+   
+}
+.logo{
+    text-align: center;
+}
+form{
+    width: 30vw;
+    margin: auto;
+    /* background-color: #c27474; */
+}
+p{
+    text-align: center;
+}
+label{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+input{
+    /* width: 100%; */
+    width: calc(100% - 11px);
+    height: 46px;
+    border: 1px solid rgb(38, 40, 162);
+    border-radius: 20px; 
+    padding-left: 13px;
+}
+.pass_forget{
+    display: flex;
+    justify-content:space-between;
+}
+.space{
+    margin-bottom: 14px;
+    margin-top:15px;
+}
+.ii input{
+    width: 100%;
+    background-color: #952499;
+    color: azure;
+    border: none;
+}
+

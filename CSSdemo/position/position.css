@@ -1,0 +1,66 @@
+
+
+.container{
+    width: 700px;
+    height: 200vw;
+    background-color: #78dba3;
+    position: relative;
+}
+.box{
+    width: 200px;
+    height: 200px;
+}
+.red{
+    position: absolute;
+    left: 0;
+    background-color: red;
+}
+.blue{
+    /* position relative calculate from the normal flow() */
+    background-color: blue;
+    /* position: relative; */
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+.black{
+    position: absolute;
+    background-color: black;
+    bottom: 0;
+
+
+}
+.orange{
+    position: absolute;
+    background-color: orange;
+    right: 0;
+    bottom: 0;
+
+}
+.fixed{
+    background-color: rgb(169, 67, 216);
+    top: 0;
+    right: 0;
+    position: fixed;
+}
+.stickyy{
+    position:sticky;
+    background-color: rgb(78, 250, 5);
+    top: 0;
+    left: 100px;
+}
+.float{
+    margin: 20px;
+}
+.hello{
+    float: left;
+}
+.right{
+    float: right;
+}
+img{
+    margin: 20px;
+    width: 300px;
+    height: 200px;
+}

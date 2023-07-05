@@ -1,0 +1,117 @@
+
+
+.container_hole{
+    width: 80vw;
+    margin: auto;
+}
+.container{
+    /* justify-content: center; */
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+    grid-template-rows: repeat(6 1fr);
+    grid-template-areas:
+    "a a a a b b b b"
+    "a a a a b b b b"
+}
+#hehe{
+    text-align: center;
+    font-size: 30px;
+    color: #163bb5;
+}
+.kk h1{
+    color: #163bb5; 
+    font-weight: 600;
+}
+.kk p{
+    color: #163bb5; 
+    font-weight: 200;
+}
+ h1{
+    font-size: 17px;
+}
+p{
+    font-size: 14px;
+}
+.position{
+    color: rgb(244, 242, 239);
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+;
+}
+.a_1{
+    grid-column: 1 / span 3;
+    background-color: rgb(25, 23, 23);
+
+}
+.a_2{
+    grid-column: 4;
+    grid-row: 1;
+    background-color:rgb(225, 221, 221);
+}
+.a_3{
+    grid-column: 1 / span 4;
+    grid-row:2;
+    background-color: #163bb5;
+    
+}
+.a_4{
+    /* grid-area: a ; */
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    background-color: rgb(225, 221, 221);
+    position: relative;
+
+}
+.a_5{   
+    /* grid-area: b;
+    align-self: start; */
+    grid-column: 3 / span 2;
+    grid-row: 3;
+    background-color:rgb(225, 221, 221);
+
+}
+.a_6{
+    grid-column: 1 /span 3;
+    grid-row: 4;
+    background-color:rgb(225, 221, 221);
+}
+.a_7{
+    grid-column: 4;
+    background-color: rgb(225, 221, 221);
+}
+.a_8{
+    grid-column: 1 /span 2;
+    grid-row: 5;
+    background-color: rgb(225, 221, 221);
+}
+.a_9{
+    grid-column: 3;
+    grid-row: 5;
+    background-color: rgb(225, 221, 221);
+
+}
+.a_10{
+    grid-column: 4;
+    grid-row: 5;
+    background-color: rgb(225, 221, 221);
+}
+.a_11{
+    grid-column: 1 /span 4;
+    grid-row: 6;
+    background-color: rgb(225, 221, 221);
+}
+.flag{
+        background-color: #087f23;
+        position: absolute;
+        top: -0.8rem;
+        left: -0.8rem;
+        padding: 0.3rem 0.5rem;
+        display: inline-block;
+        color: #fff;
+        font-weight: both;
+        transform: rotate(-20deg);
+        position: absolute;
+    
+}

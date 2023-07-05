@@ -1,0 +1,27 @@
+
+
+.container{
+    width: 80vw;
+    height: 80vh;
+    background-color: #2be575;
+    margin: auto;
+}
+
+@media screen and (max-width: 520px) {
+    .container{
+        background-color: #0b0b0b;
+    }
+}
+@media screen and (min-width: 521px) {
+    .container{
+        background-color: #3923e3;
+    } 
+}
+
+@media screen and (min-width: 600px) {
+    .container{
+        background-color: #e3c023;
+    }
+    
+}
+

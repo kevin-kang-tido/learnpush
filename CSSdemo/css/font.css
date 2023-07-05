@@ -1,0 +1,42 @@
+
+
+/* configuraton font */
+@font-face {
+    font-family: kantumruy_thin;
+    src: url(./../font/KantumruyPro-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: font_thin;
+    src: url(./../font/KantumruyPro-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:test;
+    src: url(./../font/KantumruyPro-Italic-VariableFont_wght.ttf);
+}
+h3{
+    color: brown;
+    font-family: kantumruy_thin;
+}
+h2{
+    font-family:test;
+    text-align: center;
+    
+}
+.font{
+    color: rgb(184, 210, 52);
+    /* font-family: font_thin; */
+}
+.services{
+    display: flex;
+    flex-wrap:wrap;
+
+    
+}
+.services_item{
+    margin: 20px;
+    margin: auto;
+}
+.services_item svg{
+    width: 230px;
+    font-size: 12px;
+}
