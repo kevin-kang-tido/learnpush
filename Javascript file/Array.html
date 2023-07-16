@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Array</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <div class="containter">
+        <div class="row">
+
+        </div>
+    </div>
+
+    
+    <script>
+        // declear arrray object
+        let products=[
+        {
+            id:1,
+            title:"Magic Mouse_1",
+            description:"Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+            price:200,
+            image:[
+            "https://picsum.photos/640/640?r=3960",
+            "https://picsum.photos/640/640?r=608",
+            ]
+        },
+        {
+            id:2,
+            title:"Magic Mouse_2",
+            description:"Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+            price:200,
+            image:[
+            "https://picsum.photos/640/640?r=3960",
+            "https://picsum.photos/640/640?r=608",
+            ]
+
+        },
+        {
+            id:3,
+            title:"Magic Mouse_3",
+            description:"Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+            price:200,
+            image:[
+            "https://picsum.photos/640/640?r=3960",
+            "https://picsum.photos/640/640?r=608",
+            ]
+        },
+        {
+            id:4,
+            title:"Magic Mouse_4",
+            description:"Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+            price:200,
+            image:[ 
+            "https://picsum.photos/640/640?r=3960",
+            "https://picsum.photos/640/640?r=608",
+            ]
+        }
+        ];
+        let ui='';
+        for ( pro of products) {
+            ui +=`
+            <div class="col-12 col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="${pro.image[0]}" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">${pro.title}</p>
+                      <p class="card-text">${pro.price}$</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            `;
+        }
+        document.querySelector(".row").innerHTML=ui;
+    </script>
+    <script src="./index.js"></script>
+</body>
+</html>
